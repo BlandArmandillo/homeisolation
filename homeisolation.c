@@ -56,7 +56,7 @@ double c_wall(double w1, double w2, double w3)
     printf("U sciany: \n");
     printf("1. Cegla ceramiczna pelna [U = %lf, d = 25cm] \n", w1);
     printf("2. Cegla ceramiczna dziurawka [U = %lf, d = 38cm]\n", w2);
-    printf("3. Cegla kratowka [U = %lf, d = 38cm]\n", w3);
+    printf("3. Bloczek Silikatowy [U = %lf, d = 24cm]\n", w3);
     printf("4. Inne (wprowadz wlasne)\n");
     printf("Wybierz wpisujac numer |1|2|3|4|\n");
     printf("=================================================\nWybor = ");
@@ -123,7 +123,7 @@ int main()
     Z.new = 0.7;
     Z.w1 = 1.944;
     Z.w2 = 1.246;
-    Z.w3 = 1.151;
+    Z.w3 = 1.916;
     /*Wczytanie zmiennych*/
     printf("=================================================\n");
     printf("Wczytywanie zmiennych\n");
